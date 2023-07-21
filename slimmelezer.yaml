@@ -114,11 +114,11 @@ sensor:
       name: "Long Electricity Failures"
       icon: mdi:alert
     voltage_l1:
-      name: "Voltage Phase 1"
+      name: "Voltage Phase 1 MMM"
     voltage_l2:
-      name: "Voltage Phase 2"
+      name: "Voltage Phase 2 MMM"
     voltage_l3:
-      name: "Voltage Phase 3"
+      name: "Voltage Phase 3 MMM"
     current_l1:
       name: "Current Phase 1"
     current_l2:
