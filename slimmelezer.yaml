@@ -116,13 +116,17 @@ sensor:
       name: "Long Electricity Failures"
       icon: mdi:alert
     voltage_l1:
-      name: "Voltage Phase 1 MMM"
+      name: "Itampa"
+      filters:
+        - multiply: 1000
     voltage_l2:
       name: "Voltage Phase 2 MMM"
     voltage_l3:
       name: "Voltage Phase 3 MMM"
     current_l1:
-      name: "Current Phase 1"
+      name: "Srove"
+      filters:
+        - multiply: 1000
     current_l2:
       name: "Current Phase 2"
     current_l3:
